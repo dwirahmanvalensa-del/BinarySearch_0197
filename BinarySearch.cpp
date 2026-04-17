@@ -81,4 +81,11 @@ void binarySearch()
         cout << "Masukkan element yang ingin dicari: ";
         cin >> x;
 
-        
+        int low = 0;
+        int high = nPanjang - 1;
+
+        do
+        {
+            int mid = (low + high) / 2;
+
+            
